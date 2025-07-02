@@ -1,0 +1,5 @@
+com\upc\cultivoapi\model\Cultivo.class
+com\upc\cultivoapi\service\CultivoService.class
+com\upc\cultivoapi\controller\CultivoController.class
+com\upc\cultivoapi\repository\CultivoRepository.class
+com\upc\cultivoapi\CultivoApiApplication.class
