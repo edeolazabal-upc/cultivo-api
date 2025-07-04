@@ -15,7 +15,7 @@ services:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: DATABASE_URL
-        value: jdbc:postgresql://cultivo_9mz5_user:bzY30JQwtY3aq56VbQbPusbn7oI2Ex6O@dpg-d1iovrbipnbc73fb268g-a:5432/cultivo_9mz
+        value: jdbc:postgresql://dpg-d1iovrbipnbc73fb268g-a.oregon-postgres.render.com:5432/cultivo_9mz
       - key: DATABASE_USERNAME
         value: cultivo_9mz5_user
       - key: DATABASE_PASSWORD
