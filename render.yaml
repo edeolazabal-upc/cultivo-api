@@ -4,18 +4,12 @@ services:
     env: docker
     plan: free
     branch: main
-    buildFilter:
-      paths:
-        - Dockerfile
-        - render.yaml
-        - src/**
-        - pom.xml
     dockerfilePath: Dockerfile
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: DATABASE_URL
-        value: jdbc:postgresql://dpg-d1iovrbipnbc73fb268g-a.oregon-postgres.render.com:5432/cultivo_9mz
+        value: jdbc:postgresql://dpg-d1iovrbipnbc73fb268g-a.oregon-postgres.render.com:5432/cultivo_9mz5
       - key: DATABASE_USERNAME
         value: cultivo_9mz5_user
       - key: DATABASE_PASSWORD
