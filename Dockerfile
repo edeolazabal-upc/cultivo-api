@@ -13,5 +13,8 @@
     # Compilamos la aplicación
     RUN ./mvnw clean package -DskipTests
 
+    # Exponer el puerto que Render espera (por convención, 8080)
+    EXPOSE 8080
+
     # Comando para ejecutar el jar generado
     CMD ["java", "-jar", "target/cultivo-api-0.0.1-SNAPSHOT.jar"]
